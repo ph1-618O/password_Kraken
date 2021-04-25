@@ -71,3 +71,6 @@ elif 'y' in nos.lower():
 def main():
     combos()
 
+if name == __main__:
+    main()
+
