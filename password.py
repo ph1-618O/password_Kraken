@@ -1,3 +1,6 @@
+#! usr/bin/env python 3.8.5
+# coding: utf-8
+
 #Skipping the symbols only conditional
 import secrets
 
@@ -64,3 +67,6 @@ elif 'y' in nos.lower():
 #amount of time each thread of the computer has run and then the sum for ea computer
 # Choosing Password char amount, ie, 3 nos, 3 chars, etc
 #https://docs.python.org/3/library/secrets.html#:~:text=The%20text%20is%20Base64%20encoded,a%20reasonable%20default%20is%20used.
+
+if __name__ == "__main__":
+    main()
