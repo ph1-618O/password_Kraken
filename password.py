@@ -68,5 +68,6 @@ elif 'y' in nos.lower():
 # Choosing Password char amount, ie, 3 nos, 3 chars, etc
 #https://docs.python.org/3/library/secrets.html#:~:text=The%20text%20is%20Base64%20encoded,a%20reasonable%20default%20is%20used.
 
-if __name__ == "__main__":
-    main()
+def main():
+    combos()
+
